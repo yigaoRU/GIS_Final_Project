@@ -33,8 +33,5 @@ Highlight Features:
 
 ## Static Map: Continental-US Airport Distribution By State
 Spatial join is used for this map.
-<p float="left">
-  <img src="/static_map_airport_distribution_by_state.png" width="500" />
-  <img src="/static_map_airport_distribution_by_region.png" width="500" /> 
-</p>
+![](static_map_airport_distribution_by_state.png) ![](static_map_airport_distribution_by_region.png)
 
