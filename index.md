@@ -31,11 +31,15 @@ Highlight Features:
 
 <iframe src='interactive_map_airport_distribution_continental_US.html' width='1080' height='640'></iframe>
 
+Interesting Findings:
+1. Most airports located near the coastline(Eastcoast, Westcoast and Southcoast);
+2. States like South Dakota don't even have an international airport.
+
 ## Static Map: Continental-US Airport Distribution By State
 Spatial join is used for this map.
 
 Highlight Features:    
-1. Use spatial join to dissove county boundaries;
+1. spatial join is adopted to dissove county boundaries;
 2. Carto Positron as basemap
 3. Properly-sized legends and titles with a 2x1 small multiple approach.
 
@@ -45,7 +49,16 @@ Highlight Features:
 Interesting findings:
 1. Southern states and regions have more airports than northern ones, especially CA,TX,FL.(Because the climate is suitable to build airports?)
 2. States or regions with large number of airports distribute closer to the US border.
+3. Internation airport distribution usually follows all airport distribution(populaiton). In the midatlantic region,however, it shows the higher proportion of airports to be international. 
 
 ## Static Map: Relationship of Median Household Income and Airport Count in Midatlantic Region
 
+Highlight Features:    
+1. airport distribution layer from interactive map overlays census median income tract layer;
+2. Carto Positron as basemap.
+
 <img src="static_map_median_household_income_and_airport_count_midatlantic_region.png" width="1080" height="800" />
+
+Interesting Findings:
+1. Suffolk County, Long Island has the most number of airports countywide.
+2. The counties with more airports tend to have higher median household income. 
