@@ -1,4 +1,6 @@
 # GIS Final Project: Airport Distribution and Median Household Income Relationship
+34:816:651:90 SEM PUB INFORM  
+Yi Gao
 
 ## DataSet Introduction
 This project includes   
