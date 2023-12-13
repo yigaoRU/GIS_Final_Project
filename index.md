@@ -27,13 +27,25 @@ Highlight Features:
 1. Carto Positron and openstreetmap layers to control with Carto Positron as default;
 2. 3-letter IATA code of the airport and county name tooltips shown on hover;
 3. Pops-ups of location, elevation information on click;
-4. folium Choropleth map as basemap/
+4. folium Choropleth map as basemap.
 
 <iframe src='interactive_map_airport_distribution_continental_US.html' width='1080' height='640'></iframe>
 
 ## Static Map: Continental-US Airport Distribution By State
 Spatial join is used for this map.
+
+Highlight Features:    
+1. Use spatial join to dissove county boundaries;
+2. Carto Positron as basemap
+3. Properly-sized legends and titles with a 2x1 small multiple approach.
+
 <img src="static_map_airport_distribution_by_state.png" width="1080" height="800" />
 <img src="static_map_airport_distribution_by_region.png" width="1080" height="800" />
 <!-- ![](static_map_airport_distribution_by_state.png | width=500) ![](static_map_airport_distribution_by_region.png | width=500) -->
+Interesting findings:
+1. Southern states and regions have more airports than northern ones, especially CA,TX,FL.(Because the climate is suitable to build airports?)
+2. States or regions with large number of airports distribute closer to the US border.
 
+## Static Map: Relationship of Median Household Income and Airport Count in Midatlantic Region
+
+<img src="static_map_median_household_income_and_airport_count_midatlantic_region.png" width="1080" height="800" />
