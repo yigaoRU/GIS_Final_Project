@@ -2,7 +2,7 @@
 
 ## DataSet Introduction
 This project includes   
-1. The Airports dataset includes all official and operational aerodromes as of July 16, 2020.
+1. The Airports dataset containing all official and operational aerodromes as of July 16, 2020.
    - Prepared by: US Department of Transportation-Bureau of Transportation Statistics
    - Format: geojson
    - Last Updated: November 15, 2022
@@ -18,6 +18,20 @@ This project includes
    - Last Updated: August, 9, 2019
    - URL:[https://www2.census.gov/geo/tiger/TIGER2019/TRACT](https://www2.census.gov/geo/tiger/TIGER2019/TRACT)
 
-## Continental-US Airport Distribution Map
+I used table join, spatial join, aggregation to subset data tables to reasonable sizes. Airport dataset has too many columns and plenty of null values. 
+
+## Interactive Map: Continental-US Airport Distribution
+The following interactive map shows the distribution of the major airports in Continental-US. Markers represent international airports(with international custom facilities). In the Midatlantic Region, I aggregated number of airports by county. The darker of the county is colored, the more airports it has.    
+
+Highlight Features:    
+1. Carto Positron and openstreetmap layers to control with Carto Positron as default;
+2. 3-letter IATA code of the airport and county name tooltips shown on hover;
+3. Pops-ups of location, elevation information on click;
+4. folium Choropleth map as basemap/
 
 <iframe src='interactive_map_airport_distribution_continental_US.html' width='1080' height='640'></iframe>
+
+## Static Map: Continental-US Airport Distribution By State
+Spatial join is used for this map.
+
+
